@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h2 {
+  justify-content: center;
+}
+
+ul{
+  display: flex;
+  background-color: aquamarine;
+  padding: 30px 30px;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.hometext{
+  text-align: center;
+  text-decoration: underline;
+  padding: 20px;
+}
+
+h2{
+  text-align: center;
+  color: crimson;
+}
+
+.formContainer{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  gap: 5px
+}
+
+.form-group input {
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.btn{
+  padding: 10px 5px;
+  border-radius: 12px;
+  background-color: burlywood;
+  color: black;
+  transition: all ease-in-out 1s;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: brown;
+  color: white;
+}
+
+.formClass{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
