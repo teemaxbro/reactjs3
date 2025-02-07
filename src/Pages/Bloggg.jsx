@@ -13,7 +13,8 @@ const Bloggg = () => {
     }
 
   return (
-    <div className='formContainer'>
+    <div className= 'flex p-8 bg-blue-500 items-center justify-center h-screen w-full'>
+      <div className='w-full sm:w-[70%] md:w-[65%] lg:w-[50%] xl:w-[45%] 2xl:w-[50%]'>
        {formSubmitted === false ? (
          <UserForm
            handleSubmission = {handleSubmit}
@@ -27,7 +28,7 @@ const Bloggg = () => {
        )
          : (<Usercard userName={name} userAge={age} userDescription={description}/>)} 
         
-        
+        </div>
     </div>
   );
 }
