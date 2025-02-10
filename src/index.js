@@ -8,6 +8,7 @@ import   About from './Pages/About';
 import Contacts from './Pages/Contacts';
 import Bloggg from './Pages/Bloggg.jsx';
 import Users from './Pages/Users.jsx';
+import SingleUser from './Pages/SingleUser.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
         <Route path = '/contact' element = {<Contacts/>}></Route>
         <Route path = '/bloggg' element = {<Bloggg/>}></Route>
         <Route path = '/users' element = {<Users/>}></Route>
+        <Route path = '/users/:id' element = {<SingleUser/>}></Route>
       </Routes>
     </Router>
   </React.StrictMode>
